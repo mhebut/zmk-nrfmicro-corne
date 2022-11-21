@@ -60,10 +60,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-    &kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4                      &kp NUMBER_5     &kp NUMBER_6     &kp NUMBER_7                      &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &kp BSPC
-   &kp PAGE_UP        &trans        &kp UP          &trans        &trans                            &trans        &kp MINUS        &kp EQUAL                          &kp LBKT      &kp RBKT      &kp BSLH  &kp GRAVE
- &kp PAGE_DOWN      &kp LEFT      &kp DOWN       &kp RIGHT        &trans  &rgb_ug RGB_COLOR_HSB(174,0,100)  &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_COLOR_HSB(165,76,55)      &kp RBRC      &kp PIPE  &kp TILDE
-                                            &kp LEFT_SHIFT        &trans                         &kp ENTER          &kp RET           &trans                          &kp RALT
+    &kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4                      &kp NUMBER_5     &kp NUMBER_6     &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &kp BSPC
+   &kp PAGE_UP        &trans        &kp UP          &trans           &trans                            &trans        &kp MINUS        &kp EQUAL         &kp LBKT      &kp RBKT      &kp BSLH  &kp GRAVE
+ &kp PAGE_DOWN      &kp LEFT      &kp DOWN       &kp RIGHT  &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(174,0,100)  &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_TOG      &kp RBRC      &kp PIPE  &kp TILDE
+                                            &kp LEFT_SHIFT           &trans                         &kp ENTER          &kp RET           &trans         &kp RALT
             >;
         };
     };
