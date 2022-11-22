@@ -59,10 +59,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-    &kp ESCAPE  &kp LEFT_BRACE       &kp UP  &kp RIGHT_BRACE  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6    &kp NUMBER_7  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp BSPC
-   &kp PAGE_UP        &kp LEFT     &kp DOWN        &kp RIGHT   &mt LCTRL F   &mt LCTRL G       &kp MINUS       &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp GRAVE
- &kp PAGE_DOWN     &mt LCTRL Z  &mt LCTRL X      &mt LCTRL C   &mt LCTRL V        &trans  &kp LEFT_BRACE  &kp LEFT_BRACE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp TILDE
-                                              &kp LEFT_SHIFT        &trans     &kp ENTER         &kp RET          &trans  &kp NUMBER_0
+    &kp ESCAPE  &mt LEFT_CONTROL A     &kp UP   &kp C_AC_SAVE  &kp NUMBER_4  &kp NUMBER_5         &kp MINUS           &kp PLUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9        &kp SLASH
+   &kp PAGE_UP            &kp LEFT   &kp DOWN       &kp RIGHT    &kp K_FIND   &mt LCTRL G         &kp UNDER          &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MULTIPLY
+ &kp PAGE_DOWN          &kp K_UNDO  &kp K_CUT      &kp K_COPY   &kp K_PASTE    &kp DELETE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp DOT
+                                               &kp LEFT_SHIFT        &trans     &kp ENTER           &kp RET  &kp DOUBLE_QUOTES  &kp NUMBER_0
             >;
         };
     };
