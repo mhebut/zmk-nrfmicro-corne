@@ -62,7 +62,7 @@
             bindings = <
        &kp ESC  &mt LEFT_CONTROL A        &kp UP   &kp C_AC_SAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS         &kp MINUS           &kp PLUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH
    &kp PAGE_UP            &kp LEFT      &kp DOWN       &kp RIGHT         &kp C_AC_FIND            &mt LCTRL G         &kp UNDER          &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp STAR
- &kp PAGE_DOWN       &kp C_AC_UNDO  &kp C_AC_CUT   &kp C_AC_COPY           &kp K_PASTE                 &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp DOT
+ &kp PAGE_DOWN       &kp C_AC_UNDO  &kp C_AC_CUT   &kp C_AC_COPY           &kp K_PASTE            &mt LCTRL V  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp DOT
                                                   &kp LEFT_SHIFT                &trans              &kp ENTER           &kp RET  &kp DOUBLE_QUOTES  &kp NUMBER_0
             >;
         };
