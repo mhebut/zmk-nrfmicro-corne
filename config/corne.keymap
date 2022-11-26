@@ -71,10 +71,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-    &kp ESCAPE     &kp A    &kp UP             &kp S  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS         &kp MINUS           &kp PLUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH
-   &kp PAGE_UP  &kp LEFT  &kp DOWN         &kp RIGHT                 &kp F                  &kp G         &kp UNDER          &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp STAR
- &kp PAGE_DOWN     &kp Z     &kp X             &kp C                 &kp V                  &kp B  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp DOT
-                                    &kp LEFT_CONTROL                &trans              &kp ENTER           &kp RET  &kp DOUBLE_QUOTES  &kp NUMBER_0
+    &kp ESCAPE  &kp LC(A)     &kp UP         &kp LC(S)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS         &kp MINUS           &kp PLUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH
+   &kp PAGE_UP   &kp LEFT   &kp DOWN         &kp RIGHT             &kp LC(F)              &kp LC(G)         &kp UNDER          &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp STAR
+ &kp PAGE_DOWN  &kp LC(Z)  &kp LC(X)         &kp LC(C)             &kp LC(V)              &kp LC(B)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp DOT
+                                      &kp LEFT_CONTROL                &trans              &kp ENTER           &kp RET  &kp DOUBLE_QUOTES  &kp NUMBER_0
             >;
         };
     };
