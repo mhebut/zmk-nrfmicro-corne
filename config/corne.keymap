@@ -41,10 +41,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
- &kp ESCAPE   &kp Q   &kp W   &kp E   &kp R          &kp T      &kp Y      &kp U              &kp I    &kp O     &kp P  &kp SINGLE_QUOTE
-    &kp TAB   &kp A   &kp S   &kp D   &kp F          &kp G      &kp H      &kp J              &kp K    &kp L  &kp SEMI       &kp PAGE_UP
-  &kp LSHFT   &kp Z   &kp X   &kp C   &kp V          &kp B      &kp N      &kp M          &kp COMMA  &kp DOT  &kp FSLH     &kp PAGE_DOWN
-                              &mo 1   &mo 2  &kp BACKSPACE  &kp ENTER  &kp SPACE  &kp DOUBLE_QUOTES
+ &kp ESCAPE   &kp Q   &kp W   &kp E   &kp R          &kp T      &kp Y      &kp U             &kp I    &kp O     &kp P  &kp BACKSPACE
+    &kp TAB   &kp A   &kp S   &kp D   &kp F          &kp G      &kp H      &kp J             &kp K    &kp L  &kp SEMI    &kp PAGE_UP
+  &kp LSHFT   &kp Z   &kp X   &kp C   &kp V          &kp B      &kp N      &kp M         &kp COMMA  &kp DOT  &kp FSLH  &kp PAGE_DOWN
+                              &mo 1   &mo 2  &kp BACKSPACE  &kp ENTER  &kp SPACE  &kp SINGLE_QUOTE
             >;
         };
 
@@ -74,7 +74,7 @@
     &kp ESCAPE  &kp LC(A)     &kp UP         &kp LC(S)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS         &kp MINUS           &kp PLUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH
    &kp PAGE_UP   &kp LEFT   &kp DOWN         &kp RIGHT             &kp LC(F)              &kp LC(G)         &kp UNDER          &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp STAR
  &kp PAGE_DOWN  &kp LC(Z)  &kp LC(X)         &kp LC(C)             &kp LC(V)              &kp LC(B)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp DOT
-                                      &kp LEFT_CONTROL                &trans              &kp ENTER           &kp RET  &kp DOUBLE_QUOTES  &kp NUMBER_0
+                                      &kp LEFT_CONTROL                 &mo 2              &kp ENTER           &kp RET  &kp DOUBLE_QUOTES  &kp NUMBER_0
             >;
         };
     };
