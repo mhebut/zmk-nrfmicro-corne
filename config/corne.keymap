@@ -59,7 +59,7 @@
  &kp ESCAPE        &kp N1        &kp N2        &kp N3            &kp N4       &kp N5           &kp N6                          &kp N7                             &kp N8                            &kp N9                 &kp N0         &kp BSPC
     &kp TAB      &kp EXCL        &kp AT      &kp HASH        &kp DOLLAR  &kp PERCENT        &kp CARET                   &kp AMPERSAND                           &kp STAR              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS        &kp ENTER
   &kp LSHFT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3   &bt BT_CLR  &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(0,23,99)  &rgb_ug RGB_COLOR_HSB(120,100,50)  &rgb_ug RGB_COLOR_HSB(224,98,50)        &rgb_ug RGB_BRD  &rgb_ug RGB_BRI
-                                             &kp LGUI  &kp LEFT_CONTROL   &kp DELETE          &kp RET                       &kp SPACE                   &kp SINGLE_QUOTE
+                                                &mo 1  &kp LEFT_CONTROL   &kp DELETE          &kp RET                       &kp SPACE                   &kp SINGLE_QUOTE
             >;
         };
 
